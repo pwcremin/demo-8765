@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: demo-8765
+  host: demo-8765
+  disk_quota: 1024M
+  services:
+  - demo-8765-cloudantNoSQLDB
